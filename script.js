@@ -123,6 +123,11 @@
 //Reset Function for validation
      function resetErrors()
      {
-        document.getElementById("firstname-error").textContent="";
-
+    document.getElementById("firstname-error").textContent = "";
+    document.getElementById("lastname-error").textContent = "";
+    document.getElementById("regdno-error").textContent = "";
+    document.getElementById("dob-error").textContent = "";
+    document.getElementById("email-error").textContent = "";
+    document.getElementById("phone-error").textContent = "";
+    document.getElementById("address-error").textContent = "";
      }

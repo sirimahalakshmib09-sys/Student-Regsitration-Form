@@ -115,3 +115,40 @@ transition: all 0.2s ease-in-out;
 display: block; 
 text-align: left;
 }
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+
+body
+{
+    padding: 15px;
+}
+h1 
+{
+    font-size: 28px;
+}
+#form-view 
+{
+    padding: 20px;
+}
+.form-group 
+{
+    grid-template-columns: 1fr;
+    gap: 8px;
+    font-size: 18px;
+}
+input,select,textarea 
+{
+    width: 100%;
+    box-sizing: border-box;
+}
+input[type="submit"] 
+{
+    width: 100%;
+}
+#success 
+{
+    width: 85%;
+    padding: 20px;
+}
+}
+
