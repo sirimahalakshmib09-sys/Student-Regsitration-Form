@@ -1,4 +1,4 @@
-/*Page layout*/
+/*Page Layout*/
 body
 {
 padding: 40px;
@@ -21,7 +21,7 @@ margin-bottom: 40px;
 font-size: 40px;
 text-decoration: solid,wavy;
 }
-/*form view*/
+/*Form View*/
 #form-view
 {
 background: rgba(255, 255, 255, 0.2);
@@ -31,7 +31,7 @@ border-radius: 15px;
 max-width: 900px; 
 margin: 0 auto;
 }
-/*div class*/
+/*Div Class*/
 .form-group
 {
 color: #0D3B66;
@@ -87,7 +87,7 @@ font-family: sans-serif;
 {
 color: #0D3B66;
 }
-/*Buttons for Success Message*/
+/*Buttons For Success Message*/
 #buttons
 {
 background-color:#0D3B66 ;
@@ -109,45 +109,67 @@ margin-top: 0;
 margin-left: 10px;               
 transition: all 0.2s ease-in-out;
 }
-/*form buttons*/
+/*Form Buttons*/
 .form-buttons
 {
 display: block; 
 text-align: left;
 }
-/* Mobile Responsive Design */
-@media (max-width: 768px) {
-body
+/*Mobile Responsive Design */
+@media (max-width: 768px) 
 {
-    padding: 15px;
+/*Body*/
+body 
+{
+padding: 15px;
+background-image: url("mobilebg.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 }
+/*Heading*/
 h1 
 {
-    font-size: 28px;
+font-size: 28px;
 }
+/*Form*/
 #form-view 
 {
-    padding: 20px;
+padding: 20px;
 }
 .form-group 
 {
-    grid-template-columns: 1fr;
-    gap: 8px;
-    font-size: 18px;
+grid-template-columns: 1fr;
+gap: 8px;
+font-size: 18px;
 }
 input,select,textarea 
 {
-    width: 100%;
-    box-sizing: border-box;
+width: 100%;
+box-sizing: border-box;
 }
 input[type="submit"] 
 {
-    width: 100%;
+width: 100%;
 }
+/*Sucess Message*/
 #success 
 {
-    width: 85%;
-    padding: 20px;
+width: 85%;
+padding: 20px;
+}
+/* Radio Buttons */
+input[type="radio"] 
+{
+width: auto;
+margin-right: 10px;
+transform: scale(1.2);
+}
+/* Checkboxes */
+input[type="checkbox"] 
+{
+width: auto;
+margin-right: 10px;
+transform: scale(1.2);
 }
 }
-
